@@ -1,4 +1,9 @@
 import { request, gql } from "graphql-request";
+import { GraphQLClient } from "graphql-request";
+
+// const graphcms = new GraphQLClient(
+//   "https://api-us-east-1.graphcms.com/v2/cl1uz79iwcfqc01xk2eb8498t/master"
+// );
 
 const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 
